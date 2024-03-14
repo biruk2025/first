@@ -7,6 +7,8 @@ test.only('first exercise', async ({ page }) => {
 
   await page.getByRole('button',{name:'Node.js'}).hover();
 
+  //this code thrwos error
+  
   //await page.getByText('Java', {exact:true}).click();
 
   //this is mine
